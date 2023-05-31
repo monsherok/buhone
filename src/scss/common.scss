@@ -1,0 +1,60 @@
+// Заголовки, общие БЄМ блоки и проче...
+
+.title {
+    color: $white;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+
+    @media (max-width: 560px) {
+        font-size: 32px;
+    }
+}
+
+.subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: $white;
+}
+
+.button {
+    background: $accent;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $white;
+    display: inline-block;
+    transition: background .3s ease;
+
+    &:hover {
+        background: rgba($accent, 0.8);
+    }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+
+    &::before {
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    @media (min-width: 860px) {
+        transition: color .2s ease;
+
+        &:hover {
+            color: $accent;
+        }
+    }
+}

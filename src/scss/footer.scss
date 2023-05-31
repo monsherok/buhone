@@ -1,0 +1,26 @@
+.footer {
+
+    // .footer__container
+
+    &__container {
+        padding: 40px 0 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 40px;
+
+        p {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 19px;
+        }
+    }
+
+    // .footer__copyright
+
+    &__copyright {}
+
+    // .footer__developer
+
+    &__developer {}
+}

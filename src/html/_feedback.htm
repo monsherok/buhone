@@ -1,0 +1,34 @@
+<div class="feedback">
+    <div class="feedback__container">
+        <div class="feedback__inner">
+            <h2 class="title feedback__title">
+                Связь с нами
+            </h2>
+            <p class="subtitle feedback__subtitle">
+                У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!
+            </p>
+            <div class="contacts feedback__contacts">
+                <a class="contact feedback__contact feedback__phone" href="tel:+71112223344">+7(111)222-33-44</a>
+                <a class="contact feedback__contact feedback__mail" href="mailto:order@buhone.ru">order@buhone.ru</a>
+            </div>
+        </div>
+        <form data-dev data-popup-message="#form-done" class="feedback__form">
+            <div class="feedback__form-input">
+                <label for="firstname">Имя</label>
+                <input data-required id="firstname" autocomplete="off" type="text" name="form[]" data-error=""
+                    placeholder="Иван" class="input">
+            </div>
+            <div class="feedback__form-input">
+                <label for="lastname">Фамилия</label>
+                <input data-required id="lastname" autocomplete="off" type="text" name="form[]" data-error=""
+                    placeholder="Иванов" class="input">
+            </div>
+            <div class="feedback__form-input feedback__form-textarea">
+                <label for="message">Сообщение</label>
+                <textarea data-required id="message" autocomplete="off" name="form[]" placeholder="Ваше сообщение"
+                    data-error="" class="input"></textarea>
+            </div>
+            <button type="submit" class="button feedback__form-button">Отправить сообщение</button>
+        </form>
+    </div>
+</div>
